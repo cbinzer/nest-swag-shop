@@ -18,19 +18,19 @@ export class SwagController {
   }
 
   @Get('/:id')
-  public findOne(@Param('id') id: number): Swag {
-    return this.swagService.findOne(id);
+  public findOne(@Param('id') id: string): Swag {
+    return this.swagService.findOne(Number(id));
   }
 
   @Put('/:id')
-  public update(@Param('id') id: number, @Body() swag: Swag): void {
-    swag.id = id;
+  public update(@Param('id') id: string, @Body() swag: Swag): void {
+    swag.id = Number(id);
     return this.swagService.update(swag);
   }
 
   @Delete('/:id')
-  public delete(@Param('id') id: number): void {
-    return this.swagService.delete(id);
+  public delete(@Param('id') id: string): void {
+    return this.swagService.delete(Number(id));
   }
 
 }
