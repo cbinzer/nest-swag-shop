@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Swag } from '../swag.model';
+import { Swag } from './swag.model';
 
 @Injectable()
 export class SwagService {
