@@ -1,6 +1,6 @@
 export interface Swag {
 
-  id: string;
+  id: number;
   title: string;
   description: string;
 
