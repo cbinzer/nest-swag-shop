@@ -3,9 +3,10 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { SwagService } from './swag/swag.service';
 import { SwagController } from './swag/swag.controller';
+import { SwagModule } from './swag/swag.module';
 
 @Module({
-  imports: [],
+  imports: [SwagModule],
   controllers: [AppController, SwagController],
   providers: [AppService, SwagService],
 })
