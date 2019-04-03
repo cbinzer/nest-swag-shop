@@ -1,6 +1,6 @@
 ## Description
 
-A simple Web-API for managing swag items from [codecentric](https://www.codecentric.de/) built with [NestJS](https://nestjs.com/). The project serves as an example for the following german blog post: [NestJS: Eine kompakte Einführung]().
+A simple Web-API for managing swag items from [codecentric](https://www.codecentric.de/) built with [NestJS](https://nestjs.com/). The project serves as an example for the following german blog post: [Eine kompakte Einführung in NestJS](https://blog.codecentric.de/2019/04/einfuehrung-nestjs/).
 
 ## Installation
 
